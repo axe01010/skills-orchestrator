@@ -5,12 +5,11 @@ description: Review GitHub repos, create new repositories, install Cursor skills
 
 # GitHub Orchestration Skill
 
-## Accounts
+## Account
 
 | Account | Status | Use for |
 |---------|--------|---------|
 | `axe01010` | Active | New repos, pushes, PRs |
-| `ykrishhh` | Suspended | Do not push — appeal ticket #4607208 |
 
 ## Install skills from GitHub
 
