@@ -1,0 +1,116 @@
+{
+  "version": "1.0.0",
+  "owner": "axe01010",
+  "updated": "2026-08-03",
+  "accounts": {
+    "axe01010": {
+      "status": "active",
+      "email": "krishy2122@gmail.com"
+    },
+    "ykrishhh": {
+      "status": "suspended",
+      "note": "Account suspended — reinstatement ticket #4607208 pending"
+    }
+  },
+  "repos": [
+    {
+      "name": "axe01010",
+      "full_name": "axe01010/axe01010",
+      "visibility": "public",
+      "language": "Python",
+      "domain": "profile",
+      "skill": "github-orchestration",
+      "priority": "low",
+      "action": "maintain"
+    },
+    {
+      "name": "nothing-phone-bootloop-recovery",
+      "full_name": "axe01010/nothing-phone-bootloop-recovery",
+      "visibility": "public",
+      "domain": "android",
+      "skill": "android-dev",
+      "priority": "high",
+      "action": "promote",
+      "topics": ["android", "bootloop", "fastboot", "nothing-phone"]
+    },
+    {
+      "name": "blinkit-data-analytics",
+      "full_name": "axe01010/blinkit-data-analytics",
+      "visibility": "public",
+      "domain": "data-analytics",
+      "skill": "portfolio-builder",
+      "priority": "medium",
+      "action": "maintain"
+    },
+    {
+      "name": "Mprivahan-sewas",
+      "full_name": "axe01010/Mprivahan-sewas",
+      "visibility": "public",
+      "domain": "web-app",
+      "skill": "portfolio-builder",
+      "priority": "medium",
+      "action": "add-readme"
+    },
+    {
+      "name": "flask-hello-world",
+      "full_name": "axe01010/flask-hello-world",
+      "visibility": "private",
+      "language": "Python",
+      "domain": "backend",
+      "skill": "portfolio-builder",
+      "deploy": "vercel",
+      "priority": "low",
+      "action": "archive-or-merge"
+    },
+    {
+      "name": "SIR-harry",
+      "full_name": "axe01010/SIR-harry",
+      "visibility": "private",
+      "language": "Python",
+      "domain": "web-app",
+      "skill": "portfolio-builder",
+      "deploy": "vercel",
+      "priority": "medium",
+      "action": "maintain"
+    },
+    {
+      "name": "Xenzen-apk",
+      "full_name": "axe01010/Xenzen-apk",
+      "visibility": "public",
+      "domain": "android",
+      "skill": "apk-signer",
+      "priority": "high",
+      "action": "link-to-apk-signer"
+    },
+    {
+      "name": "apk-signer",
+      "full_name": "Axeb2b/apk-signer",
+      "visibility": "unknown",
+      "language": "Python",
+      "domain": "android",
+      "skill": "apk-signer",
+      "priority": "high",
+      "action": "active-development"
+    }
+  ],
+  "suggested_new_repos": [
+    {
+      "name": "cursor-android-toolkit",
+      "description": "Termux + Ubuntu + Cursor CLI setup scripts for rooted Android",
+      "skills": ["android-dev", "github-orchestration"],
+      "template": "scripts + docs"
+    },
+    {
+      "name": "security-research-hub",
+      "description": "Consolidated security research writeups (migrate from suspended ykrishhh)",
+      "skills": ["portfolio-builder"],
+      "template": "docs + architecture diagrams"
+    },
+    {
+      "name": "portfolio-v2",
+      "description": "Unified portfolio site aggregating all public projects",
+      "skills": ["portfolio-builder", "ui-ux-external"],
+      "external_skill": "nextlevelbuilder/ui-ux-pro-max-skill"
+    }
+  ]
+}
