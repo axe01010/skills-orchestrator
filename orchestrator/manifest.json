@@ -45,7 +45,7 @@
       "domain": "web-app",
       "skill": "portfolio-builder",
       "priority": "medium",
-      "action": "add-readme"
+      "action": "maintain"
     },
     {
       "name": "flask-hello-world",
@@ -76,7 +76,7 @@
       "domain": "android",
       "skill": "apk-signer",
       "priority": "high",
-      "action": "link-to-apk-signer"
+      "action": "maintain"
     },
     {
       "name": "apk-signer",
@@ -87,15 +87,28 @@
       "skill": "apk-signer",
       "priority": "high",
       "action": "active-development"
+    },
+    {
+      "name": "cursor-android-toolkit",
+      "full_name": "axe01010/cursor-android-toolkit",
+      "visibility": "public",
+      "domain": "android",
+      "skill": "android-dev",
+      "priority": "high",
+      "action": "promote",
+      "topics": ["android", "termux", "cursor", "ubuntu"]
+    },
+    {
+      "name": "skills-orchestrator",
+      "full_name": "axe01010/skills-orchestrator",
+      "visibility": "public",
+      "domain": "dev-tools",
+      "skill": "github-orchestration",
+      "priority": "high",
+      "action": "maintain"
     }
   ],
   "suggested_new_repos": [
-    {
-      "name": "cursor-android-toolkit",
-      "description": "Termux + Ubuntu + Cursor CLI setup scripts for rooted Android",
-      "skills": ["android-dev", "github-orchestration"],
-      "template": "scripts + docs"
-    },
     {
       "name": "security-research-hub",
       "description": "Consolidated security research writeups and architecture diagrams",
