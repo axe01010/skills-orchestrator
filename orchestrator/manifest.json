@@ -27,7 +27,12 @@
       "skill": "android-dev",
       "priority": "high",
       "action": "promote",
-      "topics": ["android", "bootloop", "fastboot", "nothing-phone"]
+      "topics": [
+        "android",
+        "bootloop",
+        "fastboot",
+        "nothing-phone"
+      ]
     },
     {
       "name": "portfolio-v2",
@@ -76,7 +81,7 @@
       "skill": "portfolio-builder",
       "deploy": "vercel",
       "priority": "low",
-      "action": "archive-or-merge"
+      "action": "archived"
     },
     {
       "name": "SIR-harry",
@@ -116,7 +121,12 @@
       "skill": "android-dev",
       "priority": "high",
       "action": "promote",
-      "topics": ["android", "termux", "cursor", "ubuntu"]
+      "topics": [
+        "android",
+        "termux",
+        "cursor",
+        "ubuntu"
+      ]
     },
     {
       "name": "skills-orchestrator",
