@@ -40,6 +40,34 @@
       "domains": ["ui", "ux", "portfolio"]
     },
     {
+      "id": "taste-skill",
+      "repo": "Leonxlnx/taste-skill",
+      "type": "skills-cli",
+      "install": "npx skills add Leonxlnx/taste-skill --skill design-taste-frontend --skill redesign-existing-projects -a cursor -y",
+      "domains": ["ui", "frontend", "portfolio"]
+    },
+    {
+      "id": "ui-design-brain",
+      "repo": "carmahhawwari/ui-design-brain",
+      "type": "skills-cli",
+      "install": "npx skills add carmahhawwari/ui-design-brain -a cursor -y",
+      "domains": ["ui", "components"]
+    },
+    {
+      "id": "superdesign",
+      "repo": "superdesigndev/superdesign-skill",
+      "type": "skills-cli",
+      "install": "npx skills add superdesigndev/superdesign-skill -a cursor -y",
+      "domains": ["ui", "design"]
+    },
+    {
+      "id": "web-design-guidelines",
+      "repo": "vercel-labs/agent-skills",
+      "type": "skills-cli",
+      "install": "npx skills add vercel-labs/agent-skills --skill web-design-guidelines -a cursor -y",
+      "domains": ["ui", "accessibility"]
+    },
+    {
       "id": "wshobson-agents",
       "repo": "wshobson/agents",
       "type": "marketplace",
@@ -60,6 +88,6 @@
     "data-analytics": ["portfolio-builder"],
     "integrations": ["composio-mcp"],
     "cloudflare": ["cloudflare"],
-    "ui": ["ui-ux-pro", "vercel-skills"]
+    "ui": ["ui-ux-pro", "taste-skill", "ui-design-brain", "superdesign", "web-design-guidelines", "vercel-skills"]
   }
 }
