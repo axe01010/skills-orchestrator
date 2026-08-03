@@ -9,9 +9,9 @@ Orchestrate Cursor agent skills across your GitHub repositories. Maps projects t
 ./scripts/install-skills.sh all
 
 # Install by domain
-./scripts/install-skills.sh cloud    # Cloudflare + Composio
-./scripts/install-skills.sh ui       # UI/UX skills
-./scripts/install-skills.sh android  # Expo/Android skills
+./scripts/install-skills.sh cloud     # Cloudflare + Composio
+./scripts/install-skills.sh ui        # UI/UX skills
+./scripts/install-skills.sh android   # Expo/Android skills
 ```
 
 ## Use as Cursor plugin
@@ -27,17 +27,17 @@ Reload Cursor. Skills auto-discover from `skills/*/SKILL.md`.
 
 ```
 skills-orchestrator/
-├── .cursor-plugin/plugin.json   # Plugin manifest
+├── .cursor-plugin/plugin.json    # Plugin manifest
 ├── orchestrator/
-│   ├── manifest.json            # Repo → skill mapping
-│   └── sources.json             # GitHub skill sources
+│   ├── manifest.json             # Repo → skill mapping
+│   └── sources.json              # GitHub skill install sources
 ├── skills/
-│   ├── apk-signer/              # APK Telegram bot
-│   ├── android-dev/             # Termux/Cursor on Android
-│   ├── github-orchestration/    # Multi-repo + skill install
-│   └── portfolio-builder/       # Web/portfolio projects
+│   ├── apk-signer/               # APK Telegram bot
+│   ├── android-dev/              # Termux/Cursor on Android
+│   ├── github-orchestration/     # Multi-repo + skill install
+│   └── portfolio-builder/        # Web/portfolio projects
 ├── scripts/install-skills.sh
-└── REPO_REVIEW.md               # Full repo audit
+└── REPO_REVIEW.md                # Full repo audit
 ```
 
 ## Bundled skills
@@ -56,12 +56,16 @@ Installed via `npx skills add <repo> -a cursor`:
 - [vercel-labs/skills](https://github.com/vercel-labs/skills) — skills CLI
 - [cloudflare/skills](https://github.com/cloudflare/skills) — Workers/DNS
 - [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) — engineering
-- [ComposioHQ/composio-mcp-plugin](https://github.com/ComposioHQ/composio-mcp-plugin) — 1000+ integrations
+- [ComposioHQ/composio-mcp-plugin](https://github.com/ComposioHQ/composio-mcp-plugin) — 100+ integrations
 - [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) — UI/UX
+
+## Portfolio
+
+All projects: **[axe01010.github.io/portfolio-v2](https://axe01010.github.io/portfolio-v2/)**
 
 ## Repo review
 
-See [REPO_REVIEW.md](./REPO_REVIEW.md) for full audit of `axe01010` and `ykrishhh` repositories.
+See [REPO_REVIEW.md](./REPO_REVIEW.md) for full audit of `axe01010` repositories.
 
 ## License
 
