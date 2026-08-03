@@ -30,6 +30,26 @@
       "topics": ["android", "bootloop", "fastboot", "nothing-phone"]
     },
     {
+      "name": "portfolio-v2",
+      "full_name": "axe01010/portfolio-v2",
+      "visibility": "public",
+      "domain": "portfolio",
+      "skill": "portfolio-builder",
+      "priority": "high",
+      "action": "promote",
+      "deploy": "github-pages",
+      "homepage": "https://axe01010.github.io/portfolio-v2/"
+    },
+    {
+      "name": "security-research-hub",
+      "full_name": "axe01010/security-research-hub",
+      "visibility": "public",
+      "domain": "security",
+      "skill": "portfolio-builder",
+      "priority": "medium",
+      "action": "maintain"
+    },
+    {
       "name": "blinkit-data-analytics",
       "full_name": "axe01010/blinkit-data-analytics",
       "visibility": "public",
@@ -106,20 +126,25 @@
       "skill": "github-orchestration",
       "priority": "high",
       "action": "maintain"
-    }
-  ],
-  "suggested_new_repos": [
-    {
-      "name": "security-research-hub",
-      "description": "Consolidated security research writeups and architecture diagrams",
-      "skills": ["portfolio-builder"],
-      "template": "docs + architecture diagrams"
     },
     {
-      "name": "portfolio-v2",
-      "description": "Unified portfolio site aggregating all public projects",
-      "skills": ["portfolio-builder", "ui-ux-external"],
-      "external_skill": "nextlevelbuilder/ui-ux-pro-max-skill"
+      "name": "L1B3RT4S",
+      "full_name": "axe01010/L1B3RT4S",
+      "visibility": "public",
+      "domain": "fork",
+      "skill": "github-orchestration",
+      "priority": "low",
+      "action": "archived"
+    },
+    {
+      "name": "BlackFriday-GPTs-Prompts",
+      "full_name": "axe01010/BlackFriday-GPTs-Prompts",
+      "visibility": "public",
+      "domain": "fork",
+      "skill": "github-orchestration",
+      "priority": "low",
+      "action": "consider-archive"
     }
-  ]
+  ],
+  "suggested_new_repos": []
 }
