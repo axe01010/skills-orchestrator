@@ -1,0 +1,65 @@
+{
+  "version": "1.0.0",
+  "install_method": "npx skills add",
+  "cursor_plugin_method": "ln -sfn <repo> ~/.cursor/plugins/local/<name>",
+  "sources": [
+    {
+      "id": "composio",
+      "repo": "ComposioHQ/composio-mcp-plugin",
+      "type": "cursor-plugin",
+      "status": "installed",
+      "skills": ["composio-mcp", "composio-activity-summary"],
+      "domains": ["integrations", "github", "gmail", "slack", "notion"]
+    },
+    {
+      "id": "vercel-skills",
+      "repo": "vercel-labs/skills",
+      "type": "skills-cli",
+      "install": "npx skills add vercel-labs/agent-skills -a cursor -y",
+      "domains": ["web-design", "frontend"]
+    },
+    {
+      "id": "cloudflare",
+      "repo": "cloudflare/skills",
+      "type": "skills-cli",
+      "install": "npx skills add cloudflare/skills -a cursor -y",
+      "domains": ["cloudflare", "workers", "dns"]
+    },
+    {
+      "id": "agent-skills",
+      "repo": "addyosmani/agent-skills",
+      "type": "skills-cli",
+      "install": "npx skills add addyosmani/agent-skills -a cursor -y",
+      "domains": ["engineering", "code-quality"]
+    },
+    {
+      "id": "ui-ux-pro",
+      "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "type": "skills-cli",
+      "install": "npx skills add nextlevelbuilder/ui-ux-pro-max-skill -a cursor -y",
+      "domains": ["ui", "ux", "portfolio"]
+    },
+    {
+      "id": "wshobson-agents",
+      "repo": "wshobson/agents",
+      "type": "marketplace",
+      "install": "manual — multi-harness plugin marketplace",
+      "domains": ["orchestration", "workflows"]
+    },
+    {
+      "id": "cursor-community",
+      "repo": "cursor/community-plugins",
+      "type": "marketplace",
+      "install": "/add-plugin from cursor.directory",
+      "domains": ["community-plugins"]
+    }
+  ],
+  "domain_skill_map": {
+    "android": ["apk-signer", "android-dev"],
+    "backend": ["portfolio-builder", "agent-skills"],
+    "data-analytics": ["portfolio-builder"],
+    "integrations": ["composio-mcp"],
+    "cloudflare": ["cloudflare"],
+    "ui": ["ui-ux-pro", "vercel-skills"]
+  }
+}
