@@ -6,10 +6,6 @@
     "axe01010": {
       "status": "active",
       "email": "krishy2122@gmail.com"
-    },
-    "ykrishhh": {
-      "status": "suspended",
-      "note": "Account suspended — reinstatement ticket #4607208 pending"
     }
   },
   "repos": [
@@ -102,7 +98,7 @@
     },
     {
       "name": "security-research-hub",
-      "description": "Consolidated security research writeups (migrate from suspended ykrishhh)",
+      "description": "Consolidated security research writeups and architecture diagrams",
       "skills": ["portfolio-builder"],
       "template": "docs + architecture diagrams"
     },
