@@ -1,8 +1,7 @@
 # GitHub Repo Review
 
 **Date:** 2026-08-03  
-**Active account:** `axe01010`  
-**Suspended account:** `ykrishhh` (ticket #4607208)
+**Active account:** `axe01010`
 
 ---
 
@@ -28,25 +27,12 @@
 
 ---
 
-## ykrishhh — suspended (inaccessible via API)
-
-Previously known public repos (from email/notifications):
-
-- `portfolio` — React portfolio with architecture diagrams
-- `security-research`, `writeups`, `cve-pocs`, `ou-hunt-report`
-- `HarryPanel`, `ESP32-HARNESS`, `termux-security-toolkit`
-- `android-rooting-masterclass`, `esp32-hacking-guide`
-
-**Action:** After reinstatement, migrate valuable repos to `axe01010` or a new org.
-
----
-
 ## Recommended new repositories
 
 1. **skills-orchestrator** (this repo) — Cursor skills + repo mapping
 2. **cursor-android-toolkit** — Termux/Ubuntu/Cursor setup scripts
 3. **portfolio-v2** — Unified project showcase site
-4. **security-research-hub** — Consolidated writeups (post-reinstatement)
+4. **security-research-hub** — Consolidated writeups and architecture diagrams
 
 ---
 
@@ -68,5 +54,4 @@ Previously known public repos (from email/notifications):
 2. Run `./scripts/install-skills.sh all`
 3. Add README to `Mprivahan-sewas` and `Xenzen-apk`
 4. Promote `nothing-phone-bootloop-recovery` on profile
-5. Resolve `ykrishhh` suspension (ticket #4607208)
-6. Remove or archive high-risk forks (`L1B3RT4S`)
+5. Remove or archive high-risk forks (`L1B3RT4S`)
