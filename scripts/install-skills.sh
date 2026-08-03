@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Install agent skills from GitHub sources into Cursor.
-# Usage: ./scripts/install-skills.sh [all|list|android|cloud|ui]
+# Usage: ./scripts/install-skills.sh [all|list|android|cloud|ui|design]
 
 set -euo pipefail
 
@@ -34,7 +34,7 @@ install_plugin_symlink() {
 
 cmd="${1:-all}"
 
-case "$cmd" in
+case "$cmd" in 
   list)
     npx --yes skills add vercel-labs/agent-skills --list 2>/dev/null || true
     ;;
@@ -43,11 +43,19 @@ case "$cmd" in
     ;;
   cloud)
     install_skills_cli "cloudflare/skills" ""
-    install_plugin_symlink "composio" "https://github.com/ComposioHQ/composio-mcp-plugin.git"
+    install_plugin_symlink "composio" https://github.com/ComposioHQ/composio-mcp-plugin.git"
     ;;
   ui)
     install_skills_cli "nextlevelbuilder/ui-ux-pro-max-skill" ""
-    install_skills_cli "vercel-labs/agent-skills" "--skill frontend-design"
+    install_skills_cli "vercel-labs/agent-skills" "--skill web-design-guidelines"
+    ;;
+  design)
+    install_skills_cli "nextlevelbuilder/ui-ux-pro-max-skill" ""
+    install_skills_cli "Leonxlnx/taste-skill" "--skill design-taste-frontend --skill redesign-existing-projects"
+    install_skills_cli "carmahhawwari/ui-design-brain" ""
+    install_skills_cli "superdesigndev/superdesign-skill" ""
+    install_skills_cli "vercel-labs/agent-skills" "--skill web-design-guidelines"
+    log "Design skills installed. Run: npx skills list"
     ;;
   engineering)
     install_skills_cli "addyosmani/agent-skills" ""
@@ -56,11 +64,13 @@ case "$cmd" in
     install_skills_cli "cloudflare/skills" ""
     install_skills_cli "addyosmani/agent-skills" ""
     install_skills_cli "nextlevelbuilder/ui-ux-pro-max-skill" ""
-    install_skills_cli "vercel-labs/agent-skills" "--skill frontend-design --skill skill-creator"
+    install_skills_cli "vercel-labs/agent-skills" "--skill web-design-guidelines"
+    install_skills_cli "Leonxlnx/taste-skill" "--skill design-taste-frontend --skill redesign-existing-projects"
+    install_skills_cli "carmahhawwari/ui-design-brain" ""
     log "Done. List installed: npx skills list"
     ;;
   *)
-    echo "Usage: $0 [all|list|android|cloud|ui|engineering]"
+    echo "Usage: $0 [all|list|android|cloud|ui|design|engineering]"
     exit 1
     ;;
 esac
