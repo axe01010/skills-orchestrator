@@ -1,0 +1,19 @@
+{
+  "name": "skills-orchestrator",
+  "description": "Orchestrates Cursor agent skills across GitHub repos — install, map, and route skills by project domain.",
+  "version": "1.0.0",
+  "skills": "./skills/",
+  "author": {
+    "name": "axe01010"
+  },
+  "homepage": "https://github.com/axe01010/skills-orchestrator",
+  "repository": "https://github.com/axe01010/skills-orchestrator",
+  "license": "MIT",
+  "keywords": [
+    "cursor",
+    "skills",
+    "orchestration",
+    "github",
+    "agents"
+  ]
+}
