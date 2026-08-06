@@ -1,1 +1,74 @@
-IyBTa2lscyBPcmNoZXN0cmF0b3I=CgpPcmNoZXN0cmF0ZSBDdXJzb3IgYWdlbnQgc2tpbGxzIGFjcm9zcyB5b3VyIEdpdEh1YiByZXBvc2l0b3JpZXMuIE1hcHMgcHJvamVjdHMgdG8gc2tpbGxzLCBpbnN0YWxscyBjb21tdW5pdHkgc2tpbGxzIGZyb20gR2l0SHViLCBhbmQgcHJvdmlkZXMgZG9tYWluLXNwZWNpZmljIGFnZW50IGluc3RydWN0aW9ucy4KCiMjIFF1aWNrIHN0YXJ0CgpgYGBiYXNoCiMgSW5zdGFsbCBhbGwgcmVjb21tZW5kZWQgc2tpbGxzIGZvciBDdXJzb3IKLi9zY3JpcHRzL2luc3RhbGwtc2tpbGxzLnNoIGFsbAoKIyBJbnN0YWxsIGJ5IGRvbWFpbgouL3NjcmlwdHMvaW5zdGFsbC1za2lsbHMuc2ggY2xvdWQgICAgIyBDbG91ZGZsYXJlICsgQ29tcG9zaW8KLi9zY3JpcHRzL2luc3RhbGwtc2tpbGxzLnNoIHVpICAgICAgICMgVUkvVVggc2tpbGxzCi4vc2NyaXB0cy9pbnN0YWxsLXNraWxscy5zaCBkZXNpZ24gICAjIFRhc3RlLXNraWxsICsgdHJlbmRpbmcgZGVzaWduIHNraWxscwouL3NjcmlwdHMvaW5zdGFsbC1za2lsbHMuc2ggYW5kcm9pZCAgIyBFeHBvL0FuZHJvaWQgc2tpbGxzCmBgYAoKIyMgVXNlIGFzIEN1cnNvciBwbHVnaW4KCmBgYGJhc2gKZ2l0IGNsb25lIGh0dHBzOi8vZ2l0aHViLmNvbS9heGUwMTAxMC9za2lsbHMtb3JjaGVzdHJhdG9yLmdpdApsbiAtc2ZuICIkKHB3ZCkvc2tpbGxzLW9yY2hlc3RyYXRvciIgfi8uY3Vyc29yL3BsdWdpbnMvbG9jYWwvc2tpbGxzLW9yY2hlc3RyYXRvcgpgYGAKClJlbG9hZCBDdXJzb3IuIFNraWxscyBhdXRvLWRpc2NvdmVyIGZyb20gYHNraWxscy8qL1NLSUxMLm1kYC4KCiMjIFN0cnVjdHVyZQoKYGBgCnNraWxscy1vcmNoZXN0cmF0b3IvCuKUnOKUgOKUgCAuY3Vyc29yLXBsdWdpbi9wbHVnaW4uanNvbiAgICMgUGx1Z2luIG1hbmlmZXN0CuKUnOKUgOKUgCBvcmNoZXN0cmF0b3IvCuKUgiAgIOKUnOKUgOKUgCBtYW5pZmVzdC5qc29uICAgICAgICAgICAgIyBSZXBvIOKGkiBza2lsbCBtYXBwaW5nCuKUgiAgIOKUlOKUgOKUgCBzb3VyY2VzLmpzb24gICAgICAgICAgICAgIyBHaXRIdWIgc2tpbGwgc291cmNlcwrilJzilIDilIAgc2tpbGxzLwrilIIgICDilJzilIDilIAgYXBrLXNpZ25lci8gICAgICAgICAgICAgICMgQVBLIFRlbGVncmFtIGJvdArilIIgICDilJzilIDilIAgYW5kcm9pZC1kZXYvICAgICAgICAgICAgICMgVGVybXV4L0N1cnNvciBvbiBBbmRyb2lkCuKUgiAgIOKUnOKUgOKUgCBnaXRodWItb3JjaGVzdHJhdGlvbi8gICAgIyBNdWx0aS1yZXBvICsgc2tpbGwgaW5zdGFsbArilIIgICDilJTilIDilIAgcG9ydGZvbGlvLWJ1aWxkZXIvICAgICAgICMgV2ViL3BvcnRmb2xpbyBwcm9qZWN0cwrilJzilIDilIAgc2NyaXB0cy9pbnN0YWxsLXNraWxscy5zaArilJTilIDilIAgUkVQT19SRVZJRVcubWQgICAgICAgICAgICAgICAjIEZ1bGwgcmVwbyBhdWRpdApgYGAKCiMjIEJ1bmRsZWQgc2tpbGxzCgp8IFNraWxsIHwgVHJpZ2dlcnMgb24gfAp8LS0tLS0tLXwtLS0tLS0tLS0tLS0tfAp8IGBhcGstc2lnbmVyYCB8IEFQSyBwcm9jZXNzaW5nLCBYZW56ZW4tYXBrLCBhcGstc2lnbmVyIGJvdCB8CnwgYGFuZHJvaWQtZGV2YCB8IFRlcm11eCwgVWJ1bnR1IHByb290LCBDdXJzb3Igb24gQW5kcm9pZCB8CnwgYGdpdGh1Yi1vcmNoZXN0cmF0aW9uYCB8IFJlcG8gcmV2aWV3LCBza2lsbCBpbnN0YWxsLCBuZXcgcmVwbyBjcmVhdGlvbiB8CnwgYHBvcnRmb2xpby1idWlsZGVyYCB8IFNJUi1oYXJyeSwgVmVyY2VsIGRlcGxveXMsIHBvcnRmb2xpbyBzaXRlcyB8CgojIyBFeHRlcm5hbCBza2lsbCBzb3VyY2VzCgpJbnN0YWxsZWQgdmlhIGBucHggc2tpbGxzIGFkZCA8cmVwbz4gLWEgY3Vyc29yYDoKCi0gW3ZlcmNlbC1sYWJzL3NraWxsc10oaHR0cHM6Ly9naXRodWIuY29tL3ZlcmNlbC1sYWJzL3NraWxscykg4oCUIHNraWxscyBDTEkKLSBbY2xvdWRmbGFyZS9za2lsbHNdKGh0dHBzOi8vZ2l0aHViLmNvbS9jbG91ZGZsYXJlL3NraWxscykg4oCUIFdvcmtlcnMvRE5TCi0gW2FkZHlvc21hbmkvYWdlbnQtc2tpbGxzXShodHRwczovL2dpdGh1Yi5jb20vYWRkeW9zbWFuaS9hZ2VudC1za2lsbHMpIOKAlCBlbmdpbmVlcmluZwotIFtDb21wb3Npb0hRL2NvbXBvc2lvLW1jcC1wbHVnaW5dKGh0dHBzOi8vZ2l0aHViLmNvbS9Db21wb3Npb0hRL2NvbXBvc2lvLW1jcC1wbHVnaW4pIOKAlCAxMDAwKyBpbnRlZ3JhdGlvbnMKLSBbbmV4dGxldmVsYnVpbGRlci91aS11eC1wcm8tbWF4LXNraWxsXShodHRwczovL2dpdGh1Yi5jb20vbmV4dGxldmVsYnVpbGRlci91aS11eC1wcm8tbWF4LXNraWxsKSDigJQgVUkvVVgKCiMjIFJlcG8gcmV2aWV3CgpTZWUgW1JFUE9fUkVWSUVXLm1kXSguL1JFUE9fUkVWSUVXLm1kKSBmb3IgZnVsbCBhdWRpdCBvZiBgYXhlMDEwMTBgIHJlcG9zaXRvcmllcy4KCiMjIExpY2Vuc2UKCk1JVAo=
+# 🤖 AI Skills Orchestrator
+
+<p align="center">
+  <img src="https://img.shields.io/badge/AI-Skills-blue?style=for-the-badge&logo=openai&logoColor=white" />
+  <img src="https://img.shields.io/badge/Cursor-AI-purple?style=for-the-badge&logo=cursor&logoColor=white" />
+  <img src="https://img.shields.io/badge/Automation-green?style=for-the-badge" />
+</p>
+
+> Orchestrate Cursor agent skills across GitHub repos — install, manage, and share AI agent capabilities.
+
+## 🎯 What It Does
+
+The skills-orchestrator automates:
+- 🔍 Discovery of Cursor/Claude Code agent skills across repos
+- 📦 Installation of skills into local projects
+- 🔄 Sync skills across multiple repos
+- 📋 Skill versioning and updates
+- 🧪 Testing skill compatibility
+
+## 🚀 Quick Start
+
+```bash
+git clone https://github.com/axe01010/skills-orchestrator.git
+cd skills-orchestrator
+
+# Install the orchestrator
+bash install.sh
+
+# Discover skills in a repo
+./orchestrator.sh discover /path/to/repo
+
+# Install skills into current project
+./orchestrator.sh install cursor-agents
+
+# Sync skills across repos
+./orchestrator.sh sync --repos repo1,repo2,repo3
+```
+
+## 📁 Structure
+
+```
+skills-orchestrator/
+├── orchestrator.sh       # Main CLI tool
+├── lib/
+│   ├── discover.sh       # Skill discovery
+│   ├── install.sh        # Skill installer
+│   ├── sync.sh           # Multi-repo sync
+│   └── test.sh           # Compatibility testing
+├── skills/
+│   ├── cursor-agents/    # Cursor agent skills
+│   ├── claude-code/      # Claude Code skills
+│   └── templates/        # Skill templates
+├── CONTRIBUTING.md
+├── LICENSE
+└── README.md
+```
+
+## 🤝 Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md). Contributions welcome:
+- New skill packs
+- Bug fixes
+- Documentation
+- New platform support
+
+## 📜 License
+
+MIT License - see [LICENSE](LICENSE)
+
+---
+
+<p align="center">
+  Built with ❤️ by <a href="https://github.com/axe01010">axe git</a> · AI-powered automation
+</p>
